@@ -16,7 +16,7 @@ def shape_to_np(shape, dtype="int"):
     #return the list of (x, y)-coordinates
 
     return coords
-
+    
 def eye_on_mask(mask, side):
     points = [shape[i] for i in side]
     points = np.array(points, dtype=np.int32)
@@ -88,17 +88,11 @@ while(True):
 
         cv2.imshow('eyes', img)
         cv2.imshow('eyes', thresh)
-        if cv2.waitKey(1) & 0xFF == ord('q')
+        if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
 
 
