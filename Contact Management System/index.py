@@ -24,8 +24,6 @@ AGE = StringVar()
 ADDRESS = StringVar()
 CONTACT = StringVar()
 
-
-
 #============================METHODS=====================================
 
 def Database():
